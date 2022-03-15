@@ -26,5 +26,5 @@ jobs:
 
             echo "Update app from Git"
             git pull origin master
-            echo "Run new PM2 actio
+            echo "Run new PM2 actio"
             sudo pm2 restart all
