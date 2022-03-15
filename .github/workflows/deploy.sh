@@ -11,3 +11,4 @@ git pull origin master
 echo "Run new PM2 action"
 sudo pm2 start app.js
 sudo pm2 restart all
+
