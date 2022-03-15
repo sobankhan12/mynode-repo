@@ -22,12 +22,9 @@ jobs:
             sudo pm2 kill
 
             echo "Jump to app folder"
-            cd /home/ubuntu/app
+            cd /home/ubuntu/mynode-repo
 
             echo "Update app from Git"
             git pull origin master
-
-
-            echo "Run new PM2 action"
-            sudo pm2 start app.js
+            echo "Run new PM2 actio
             sudo pm2 restart all
